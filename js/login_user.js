@@ -76,6 +76,7 @@ btn_entrance.onclick = (event) => {
       "https://img-create-ap-default-rtdb.firebaseio.com/users.json",
       entrance_obj
     );
+    modal_block.classList.add("modal_block_false");
     create_email.value = "";
     create_userName.value = "";
     create_password.value = "";
