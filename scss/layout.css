@@ -114,6 +114,8 @@ header .cont .block .user img {
   top: 0;
   left: 0;
   z-index: 2;
+  -webkit-backdrop-filter: blur(40px);
+  backdrop-filter: blur(20px);
   display: flex;
   align-items: center;
   justify-content: center;
