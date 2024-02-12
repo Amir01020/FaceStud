@@ -1,0 +1,22 @@
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cont .swiper {
+  margin-top: 40px;
+  width: 700px;
+}
+.cont .swiper .swiper-wrapper {
+  width: 100%;
+}
+.cont .swiper .swiper-wrapper .swiper-slide {
+  width: 100%;
+  overflow: hidden;
+}
+.cont .swiper .swiper-wrapper .swiper-slide img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=my_photo.css.map */

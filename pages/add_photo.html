@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/scss/layout.css">
+    <link rel="stylesheet" href="/scss/add_photo.css">
+    <title>FaceStud</title>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="cont">
+            <div class="block">
+                <a href="/"><img class="logo" src="/img/logo.svg" alt=""></a>
+            </div>
+            <div class="block">
+                <form action="">
+                    <input type="text" placeholder="Search FaceStud" name="" id="">
+                    <button><img src="/img/search.svg" alt=""></button>
+                </form>
+                <div class="links">
+                    <a href="/pages/photo.html">Photo</a>
+                    <a href="">my photo</a>
+                    <a href="">add photo</a>
+
+                </div>
+                <div class="user">
+                    <img src="/img/user.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="cont">
+            <div class="box">
+                <div class="absalute_block">
+                    <img src="/img/photo.jfif" alt="">
+
+                </div>
+                <div class="block">
+                    <img src="/img/photo_user.png" alt="">
+                </div>
+                <div class="block">
+                    <h2 id="user_name">name</h2>
+                    <div class="btn_box">
+                        <a href="/pages/my_photo.html">мои фотографии</a>
+                        <button>добавить фото <input type="file" id="imageInput" accept="image/*"></button>
+                        <button onclick="saveImage()">сохранить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/add_photo.js"></script>
+</body>
+
+</html>

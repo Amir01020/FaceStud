@@ -1,0 +1,28 @@
+@mixin f($a, $d) {
+  display: flex;
+  align-items: $a;
+  justify-content: $d;
+}
+
+.section_img {
+  .cont {
+    @include f(center, center);
+    .swiper {
+      width: 700px;
+      .swiper-wrapper {
+        width: 100%;
+        .swiper-slide {
+          width: 100%;
+          overflow: hidden;
+        //   background-color: red;
+        background-color: red;
+          img{
+            height: 100%;
+            width:100% ;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}

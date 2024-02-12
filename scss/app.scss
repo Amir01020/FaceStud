@@ -1,0 +1,46 @@
+@mixin f($a, $d) {
+  display: flex;
+  align-items: $a;
+  justify-content: $d;
+}
+
+main {
+  .cont {
+    @include f(center, center);
+    gap: 50px;
+    .block {
+      width: 40%;
+    }
+
+    h1 {
+      font-size: 60px;
+      font-family: Inter;
+      //   font-size: 39px;
+      color: #3e65ee;
+      font-weight: 700;
+      line-height: 47px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    p {
+      margin-top: 40px;
+      opacity: 0.6;
+    }
+    button {
+      width: 400px;
+      // height: 40px;
+      padding: 15px;
+      margin-top: 40px;
+      cursor: pointer;
+      position: relative;
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+      }
+      border-radius: 12px;
+      border: 0;
+      background-color: #3e65ee;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.section_img .cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section_img .cont .swiper {
+  width: 700px;
+}
+.section_img .cont .swiper .swiper-wrapper {
+  width: 100%;
+}
+.section_img .cont .swiper .swiper-wrapper .swiper-slide {
+  width: 100%;
+  overflow: hidden;
+  background-color: red;
+}
+.section_img .cont .swiper .swiper-wrapper .swiper-slide img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=photo.css.map */

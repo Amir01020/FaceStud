@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  font-family: Inter;
+}
+
+.cont {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+main {
+  padding-top: 100px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  padding: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4784313725);
+}
+header .cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .cont .block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+header .cont .block a .logo {
+  height: 50px;
+}
+header .cont .block form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .cont .block form input {
+  width: 350px;
+  height: 50px;
+  border: #c4c4c4 4px solid;
+  border-radius: 12px;
+  border-right: none;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+}
+header .cont .block form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #3e65ee;
+  border-radius: 22px;
+  border: 0;
+  cursor: pointer;
+  transform: translateX(-20%);
+}
+header .cont .block form button img {
+  width: 24px;
+}
+header .cont .block .links {
+  border-left: 1px #c4c4c4 solid;
+  border-right: 1px #c4c4c4 solid;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+header .cont .block .links a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+header .cont .block .links a:hover {
+  color: #3e65ee;
+}
+header .cont .block .user {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #3e65ee;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+header .cont .block .user img {
+  width: 100%;
+}
+
+.modal_block {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal_block .box {
+  background-color: #fff;
+  padding: 20px;
+  width: 450px;
+  border-radius: 20px;
+  box-shadow: #000 0 0 20px;
+}
+.modal_block .box h2 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0em;
+  color: #3e65ee;
+  text-align: center;
+}
+.modal_block .box input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgba(62, 101, 238, 0.3490196078);
+  outline-color: #3e65ee;
+  border-radius: 8px;
+  margin: 20px 0 0 0;
+}
+.modal_block .box .link {
+  margin-top: 20px;
+  text-align: right;
+}
+.modal_block .box .link a {
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3e65ee;
+  text-decoration: none;
+}
+.modal_block .box button {
+  width: 100%;
+  margin-top: 20px;
+  border: 2px solid #3e65ee;
+  border-radius: 20px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0em;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+}
+.modal_block .box button:hover {
+  background-color: #3e65ee;
+  color: #fff;
+}
+.modal_block .box .block1 {
+  display: none;
+}
+.modal_block .box .block2 {
+  display: none;
+}
+.modal_block .box .modal_block_active {
+  display: block;
+}
+
+.modal_block_false {
+  display: none;
+}/*# sourceMappingURL=layout.css.map */
